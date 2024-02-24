@@ -3,7 +3,7 @@ from django.db import models
 
 
 class Product(models.Model):
-    name = models.CharField(max_length=255)  # CharField是可以接受文字類型的輸入
+    name = models.CharField(max_length=255)  # CharField a filed that can contain textual data
     price = models.FloatField()  # FloatField是可以接受float類型的輸入
     stock = models.IntegerField()
     image_url = models.CharField(max_length=2083)
